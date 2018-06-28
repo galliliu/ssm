@@ -23,6 +23,7 @@ public class BbbAreaController {
     @RequestMapping("save")
     public void save(BbbArea bbbArea) {
         this.bbbAreaService.save(bbbArea);
+        System.out.println("test conflict");
     }
 
     @RequestMapping("selectById")
