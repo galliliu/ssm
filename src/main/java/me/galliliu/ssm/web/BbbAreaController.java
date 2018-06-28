@@ -30,6 +30,7 @@ public class BbbAreaController {
     public BbbArea selectById(Long id) {
         BbbArea bbbArea = this.bbbAreaService.selectById(id);
         System.out.println("sss");
+        System.out.println("test conflict");
         return bbbArea;
     }
 }
