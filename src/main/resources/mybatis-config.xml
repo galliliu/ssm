@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <settings>
+        <!-- 配置延迟加载，三个标签 -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="fase"/>
+        <setting name="lazyLoadTriggerMethods" value="clone"/>
+    </settings>
+
+    <!-- 给需要的类配置别名 -->
+    <typeAliases>
+    </typeAliases>
+</configuration>
